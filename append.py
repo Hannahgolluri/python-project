@@ -1,4 +1,4 @@
-items = [10 "apple"]
+items = [10,"apple"]
 
 items.append("book")
 items.append(3.5)
