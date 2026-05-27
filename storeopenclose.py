@@ -1,12 +1,6 @@
-# Store opening and closing time (24-hour format)
-open_time = 9   # 9 AM
-close_time = 21 # 9 PM
+time = int(input("Enter time: "))
 
-# Get current time from user
-current_time = int(input("Enter current time (0-23): "))
-
-# Check if store is open or closed
-if current_time >= open_time and current_time < close_time:
-    print("Store is OPEN")
+if time >= 9 and time < 21:
+    print("OPEN")
 else:
-    print("Store is CLOSED")
+    print("CLOSED")
